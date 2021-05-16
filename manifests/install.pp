@@ -4,6 +4,6 @@ class easyrsa::install() inherits easyrsa {
 
   file { $easyrsa::install_dir:
     ensure => link,
-    target => "${easyrsa::repo_target}/easyrsa3"
+    target => "${easyrsa::repo_target}/easyrsa3",
   }
 }
