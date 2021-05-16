@@ -1,3 +1,12 @@
+## 1.2.2 (May 16, 2021)
+
+**Improvements:**
+
+- Updated `Easy RSA` from version 3.0.7 to 3.0.8.
+- Updated `pdk` templates.
+- Updated os support matrix.
+- Added support for `puppet 7`.
+
 ## 1.2.1 (May 1, 2020)
 
 **Improvements:**
