@@ -1,13 +1,15 @@
-
 define easyrsa::ca (
   String      $pki_name     = $title,
   Enum['cn_only', 'org']
-              $dn_mode      = lookup('easyrsa::dn_mode'),
+  $dn_mode                  = lookup('easyrsa::dn_mode'),
   String      $ca_name      = lookup('easyrsa::ca_name'),
-  Struct[{algo       => Enum[rsa, ec],
-          size       => Integer[0],
-          valid_days => Integer[0]}]
-              $key          = lookup('easyrsa::key'),
+  Struct[
+    {
+      algo       => Enum[rsa, ec],
+      size       => Integer[0],
+      valid_days => Integer[0],
+    }
+  ]           $key          = lookup('easyrsa::key'),
   String[2]   $country      = lookup('easyrsa::country'),
   String      $state        = lookup('easyrsa::state'),
   String      $city         = lookup('easyrsa::city'),

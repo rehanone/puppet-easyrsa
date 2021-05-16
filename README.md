@@ -1,6 +1,6 @@
 # rehan-easyrsa
 
-[![Puppet Forge](http://img.shields.io/puppetforge/v/rehan/easyrsa.svg)](https://forge.puppetlabs.com/rehan/easyrsa) [![Build Status](https://travis-ci.org/rehanone/puppet-easyrsa.svg?branch=master)](https://travis-ci.org/rehanone/puppet-easyrsa)
+[![Puppet Forge](http://img.shields.io/puppetforge/v/rehan/easyrsa.svg)](https://forge.puppetlabs.com/rehan/easyrsa) [![Build Status](https://travis-ci.com/rehanone/puppet-easyrsa.svg?branch=master)](https://travis-ci.com/rehanone/puppet-easyrsa)
 
 #### Table of Contents
 1. [Overview](#overview)
@@ -38,9 +38,7 @@ $ puppet module install rehan-easyrsa
 The module does expect all the data to be provided through 'Hiera'. See [Usage](#usage) for examples on how to configure it.
 
 #### Requirements
-This module is designed to be as clean and compliant with latest puppet code guidelines. It works with:
-
-  - `puppet >=5.5.10`
+This module is designed to be as clean and compliant with latest puppet code guidelines.
 
 ## Usage
 

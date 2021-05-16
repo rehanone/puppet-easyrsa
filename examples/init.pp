@@ -36,8 +36,8 @@ node default {
           algo       => ec,
           size       => 64,
           valid_days => 30,
-        }
-      }
+        },
+      },
     },
     clients     => {
       'test-clientA' => {
@@ -46,7 +46,7 @@ node default {
           algo       => ec,
           size       => 64,
           valid_days => 30,
-        }
+        },
       },
       'test-clientB' => {
         pki_name => 'test-pki',
@@ -54,7 +54,7 @@ node default {
           algo       => ec,
           size       => 64,
           valid_days => 30,
-        }
+        },
       },
     },
     revocations => {
